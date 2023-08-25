@@ -125,34 +125,6 @@ def kalkulator():
     else:
         print('masukan input yang benar sesuai menu diatas')
 
-def akhir():
-    for harga in total:
-        print("SubTotal         : ", sum(total))
-        diskon = 0
-        a = sum(total)
-        if a > 500000:
-            diskon = a * 8/100
-        elif a > 300000:
-            diskon = a * 5/100
-        elif a > 200000:
-            diskon = a * 3/100
-        elif a > 100000:
-            diskon = a * 1/100
-        else:
-            diskon = 0
-        print("Potongan Harga   : ", diskon)
-        totalakhir = a - diskon
-        print("Total            : ", totalakhir)
-        print("-------------------------------")
-        bayar = int(input("Bayar            :  "))
-        kembalian = bayar - totalakhir
-        print("Kembalian        : ", kembalian)
-        print("-------------------------------")
-        print("          Terima Kasih         ")
-        print("-------------------------------")
-
-
-
 # main program
 if __name__=='__main__':
     get_login()
