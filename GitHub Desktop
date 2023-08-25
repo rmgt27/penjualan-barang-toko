@@ -89,6 +89,9 @@ def kasir():
         bayar = int(input("Bayar            :  "))
         kembalian = bayar - totalakhir
         print("Kembalian        : ", kembalian)
+        print("-------------------------------")
+        print("          Terima Kasih         ")
+        print("-------------------------------")
 
 
 
