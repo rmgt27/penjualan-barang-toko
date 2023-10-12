@@ -76,9 +76,9 @@ def kasir():
             diskon = a * 8/100
         elif a > 3000000:
             diskon = a * 5/100
-        elif a > 2000000:
+        elif a > 200000:
             diskon = a * 3/100
-        elif a > 1000000:
+        elif a > 10000
             diskon = a * 1/100
         else:
             diskon = 0
@@ -92,9 +92,6 @@ def kasir():
         print("-------------------------------")
         print("          Terima Kasih         ")
         print("-------------------------------")
-
-
-
 
 # membuat kalkulator
 def kalkulator():
